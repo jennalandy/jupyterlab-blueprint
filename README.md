@@ -1,6 +1,6 @@
 # jupyterlab-blueprint
 
-A JupyterLab extension of a UI Toolkit with JupyterLab styling over @palantir/blueprint.
+A JupyterLab extension of a UI Toolkit with JupyterLab styling over @palantir/blueprint components.
 
 ## Prerequisites
 
