@@ -1,3 +1,6 @@
+//A PANEL TO USE IN TESTING JUPTYERLAB-BLUEPRINT COMPONENTS
+//REMOVE IN RELEASE
+
 import * as React from 'react';
 
 import {JLButton} from './JLButton'

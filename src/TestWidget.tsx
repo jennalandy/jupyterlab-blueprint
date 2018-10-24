@@ -1,3 +1,6 @@
+//A PANEL TO USE IN TESTING JUPTYERLAB-BLUEPRINT COMPONENTS
+//REMOVE IN RELEASE
+
 import { VDomRenderer, VDomModel } from '@jupyterlab/apputils';
 
 import * as React from 'react'

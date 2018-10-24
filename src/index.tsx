@@ -9,6 +9,8 @@ import TestWidget from './TestWidget';
 import '../style/variables.css';
 
 /** Main plugin for extension */
+//A PANEL TO USE IN TESTING JUPTYERLAB-BLUEPRINT COMPONENTS
+//REMOVE IN RELEASE
 const plugin: JupyterLabPlugin<void> = {
   id: '@jupyterlab/jupyterlab-test-blueprint:plugin',
   requires: [ICommandPalette],
