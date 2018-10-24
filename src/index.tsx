@@ -18,7 +18,7 @@ const plugin: JupyterLabPlugin<void> = {
     app: JupyterLab,
     palette: ICommandPalette,
   ): void => {
-    console.log('test2')
+    console.log('test5')
 
     const widget: VDomRenderer<VDomModel> = new TestWidget(app);
 

@@ -2,7 +2,7 @@ import * as React from 'react';
 export interface IJLButtonProps {
     text: string;
     onClick: Function;
-    type: 'warning' | 'success' | 'neutral';
+    type?: 'warning' | 'success' | 'neutral';
     disabled?: boolean;
 }
 export interface IJLButtonState {
