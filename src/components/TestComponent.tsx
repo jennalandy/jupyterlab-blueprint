@@ -5,8 +5,9 @@ import * as React from 'react';
 
 import {style} from 'typestyle/lib';
 
-import {JLButton} from './JLButton'
-import{JLIconButton} from './JLIconButton'
+import {JLButton} from './JLButton/JLButton'
+import {JLIcon} from './JLIcon/JLIcon'
+import{JLIconButton} from './JLIconButton/JLIconButton'
 
 export interface ITestComponentProps {}
 
@@ -48,7 +49,12 @@ export class TestComponent extends React.Component<
           <JLButton text="I'm disabled neutral" onClick={this.click} type={'neutral'} disabled={true}/>
         </div>
         <div className = {Section}>
-          <JLIconButton icon='var(--jp-icon-save)' onClick={this.click}/>
+          <p>Icon</p>
+          <JLIcon icon='var(--jp-icon-save)'/>
+        </div>
+        <div className = {Section}>
+          <p>Icon Button</p>
+          <JLIconButton icon={<JLIcon icon='var(--jp-icon-save)'/>} onClick={this.click}/>
         </div>
       </div>
     )

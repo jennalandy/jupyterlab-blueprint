@@ -1,5 +1,5 @@
 /// <reference types="react" />
 export interface IJLIconProps {
-    jlIcon: string;
+    icon: string;
 }
 export declare const JLIcon: (props: IJLIconProps) => JSX.Element;

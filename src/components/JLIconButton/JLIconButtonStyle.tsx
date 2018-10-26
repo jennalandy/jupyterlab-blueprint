@@ -12,4 +12,22 @@ export const JLIconButtonStyle = style({
   borderRadius: 'var(--jp-border-radius)',
   display: 'flex',
   alignItems: 'center',
+
+  $nest: {
+    '&:focus': {
+      background: 'var(--jp-layout-color2)'
+    },
+
+    '&:enabled:hover': {
+      background: 'var(--jp-layout-color2)'
+    },
+
+    '&:enabled:active': {
+      background: 'var(--jp-layout-color3)'
+    },
+
+    '&:disabled': {
+      opacity: 0.4
+    }
+  }
 })

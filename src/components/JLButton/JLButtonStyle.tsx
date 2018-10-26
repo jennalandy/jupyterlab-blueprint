@@ -11,18 +11,20 @@ export function JLButtonStyle(type: string, disabled: boolean){
 
   return(
     style({
-      marginRight: '12px',
       background: color,
       border: '1px solid '+color,
+
       color: 'white',
       fontSize: 'var(--jp-ui-font-size1)',
-      boxSizing: 'border-box',
       textTransform: 'uppercase',
       textAlign: 'center',
       lineHeight: '32px',
-      height: '32px',
-      padding:'0px 12px',
       letterSpacing: '0.8px',
+      
+      boxSizing: 'border-box',
+      height: '32px',
+      marginRight: '12px',
+      padding:'0px 12px',
       outline: 'none',
       "-webkit-appearance": 'none',
       borderRadius: 'var(--jp-border-radius)'

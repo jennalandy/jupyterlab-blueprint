@@ -18,8 +18,6 @@ const plugin: JupyterLabPlugin<void> = {
     app: JupyterLab,
     palette: ICommandPalette,
   ): void => {
-    console.log('test5')
-
     const widget: VDomRenderer<VDomModel> = new TestWidget(app);
 
     widget.id = 'jupyterlab-test-blueprint';

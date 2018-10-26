@@ -1,8 +1,14 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const React = require("react");
-const JLIconStyle_1 = require("../componentStyle/JLIconStyle");
-exports.JLIcon = (props) => React.createElement("span", { className: JLIconStyle_1.JLIconStyle(props.jlIcon) });
+import * as React from 'react';
+import {JLIconStyle} from './JLIconStyle'
+
+export interface IJLIconProps {
+  icon: string;
+}
+
+export const JLIcon = (props: IJLIconProps) =>
+  <span className={JLIconStyle(props.icon)}/>
+
+
 /* NOTE
    Blueprint documentations states
      *   If given a `JSX.Element`, that element will be rendered and _all other
@@ -11,6 +17,6 @@ exports.JLIcon = (props) => React.createElement("span", { className: JLIconStyle
      *   should avoid using `<Icon icon={<Element />}` directly; simply render
      *   `<Element />` instead.
    
-   Not sure if we should use the Blueprint Icon class, since it requires a known
+   Not sure if we should use the Blueprint Icon class, since it requires a known 
    blueprint IconName string.
-*/ 
+*/
