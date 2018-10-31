@@ -8,6 +8,7 @@ export function JLIconStyle(icon: string) {
             backgroundImage: icon,
             minWidth: '16px',
             minHeight: '16px',
+            lineHeight: '16px',
             backgroundSize: '16px',
             display: 'inline-block',
             verticalAlign: 'middle',

@@ -1,3 +1,7 @@
 /// <reference types="react" />
 import { IButtonProps } from "@blueprintjs/core";
-export declare const JLIconButton: (props: IButtonProps) => JSX.Element;
+export interface IJLIconButtonProps extends IButtonProps {
+    width?: number;
+    height?: number;
+}
+export declare const JLIconButton: (props: IJLIconButtonProps) => JSX.Element;

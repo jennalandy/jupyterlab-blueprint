@@ -30,14 +30,16 @@
     "watch": "tsc -w"
   },
   "dependencies": {
+    "@blueprintjs/core": "^3.7.0",
+    "@blueprintjs/select": "^3.2.1",
     "@jupyterlab/application": "^0.19.1",
     "@jupyterlab/apputils": "^0.19.1",
     "@jupyterlab/coreutils": "^2.2.1",
     "@phosphor/domutils": "^1.1.0",
     "@phosphor/widgets": "^1.6.0",
+    "office-ui-fabric-react": "^6.94.0",
     "react": "~16.4.2",
-    "typestyle": "^2.0.1",
-    "@blueprintjs/core": "^3.7.0"
+    "typestyle": "^2.0.1"
   },
   "devDependencies": {
     "@types/react": "~16.4.13",

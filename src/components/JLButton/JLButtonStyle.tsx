@@ -15,10 +15,8 @@ export function JLButtonStyle(type: string, disabled: boolean){
       border: '1px solid '+color,
 
       color: 'white',
-      fontSize: 'var(--jp-ui-font-size1)',
       textTransform: 'uppercase',
       textAlign: 'center',
-      lineHeight: '32px',
       letterSpacing: '0.8px',
       
       boxSizing: 'border-box',
@@ -27,7 +25,22 @@ export function JLButtonStyle(type: string, disabled: boolean){
       padding:'0px 12px',
       outline: 'none',
       "-webkit-appearance": 'none',
-      borderRadius: 'var(--jp-border-radius)'
+      borderRadius: 'var(--jp-border-radius)',
+
+      $nest: {
+        '& .ms-Button-textContainer': {
+          fontSize: 'var(--jp-ui-font-size1)',
+          letterSpacing: '0.8px',
+          lineHeight: '32px',
+          fontWeight: 400
+        },
+
+        '&:active': {
+          background: color,
+          border: '1px solid '+color,
+          color: 'white',
+        }
+      }
     })
   )
 } 

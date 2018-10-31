@@ -2,11 +2,12 @@ import * as React from 'react';
 import {JLIconStyle} from './JLIconStyle'
 
 export interface IJLIconProps {
-  icon: string;
+  icon?: string;
+  text?: string;
 }
 
 export const JLIcon = (props: IJLIconProps) =>
-  <span className={JLIconStyle(props.icon)}/>
+  <span className={JLIconStyle(props.icon)}>{(props.text)?props.text:''}</span>
 
 
 /* NOTE
