@@ -32,7 +32,7 @@
   "dependencies": {
     "@blueprintjs/core": "^3.7.0",
     "@blueprintjs/select": "^3.2.1",
-    "@jupyterlab/application": "^0.19.1",
+    "@jupyterlab/application": "^3.6.3",
     "@jupyterlab/apputils": "^0.19.1",
     "@jupyterlab/coreutils": "^2.2.1",
     "@phosphor/domutils": "^1.1.0",
